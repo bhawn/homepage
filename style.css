@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    max-width: none;
+    padding: 0;
+}
+
+.header {
+    overflow: hidden;
+    padding: 0px 40px 0px 10px;
+    border-bottom: None;
+}
+
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header td {
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.header .nav-link {
+    padding:0;
+    white-space:nowrap;
+}
+
+
+.header a.active {
+  color: black;
+  cursor: default;
+}
+
+.header table {
+    float : left;
+    display: table;
+}
+
+
+.body2 {
+    max-width: 100rem;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 1.5% 
+}
+
+/*======================================*/
+#myBtnContainer .active {
+  color: black;
+  cursor: default;
+}
+
+/*======================================*/
+
+.row,
+.row > .column {
+  /*padding: 8px;*/
+  padding:  0px 8px 16px 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*=========================================*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px 0px 8px;
+}
+
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+
+.column .gif-group img {
+  margin-top: 16px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/*============================================================================*/
+
+.gif-group .gif-img {
+  display:none;
+}
+
+.project {
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: #35D7BB;
+  font-weight: bold;
+}
+
+/*====================================*/
+
+
+.show {
+  display: block;
+}
+.gif-group {
+  display: none;
+}
+.filter-section {
+    font-size: 18px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.c608:hover {
+  cursor: default;
+}
+.c678:hover {
+  cursor: default;
+}
+
+
+#contact tr td {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#contact {
+  text-align:left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+ clear: both;
+}

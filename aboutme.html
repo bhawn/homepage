@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hawn, Benjamin: About Me</title>
+        <style src="style.css"></style>
+        <link rel="stylesheet" href="katex.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header" style='position:fixed;background:#fff;'>
+            <table><tbody><tr>
+                <td width=100% style=padding:0>
+                    <table>
+                        <tbody>
+                            <tr align=center>
+                                <td  style=padding-bottom:0>
+                                    <a href="#default" class="logo">Benjamin Hawn</a>
+                                </td>
+                            </tr>
+                            <tr align=center>
+                                <td  style=padding-top:0>
+                                    Computer Science       
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td class="nav-link">
+                    <a href="index.html">Home</a>
+                </td>
+                <td class="nav-link">
+                    <a href="resume.html">Resume</a>
+                </td>
+                <td class="nav-link">
+                    <a class="active">About Me</a>
+                </td>
+            </tr></tbody></table>
+        </div>
+        
+        
+        <br><br><br>
+        
+        
+        <div class="body2">
+    		<table align="center" width = "800px" cellpadding="15px" bgcolor=#D2D3D4>
+    			<tr align="center">
+    				<td>
+    					<h3>About Me</h3>
+    					<h3></h3>
+    					<img src="assets/temp/ringDay.jpg" alt="My parents and I after I received my Aggie class ring." height="28%">
+    					<div align="left" >
+    						<h4>A Little About Me</h4>
+    						<p>
+    							&emsp;Howdy, my name is Benjamin Hawn and I am a recently graduated Master of Computer Science student at 
+    							<a href="https://www.tamu.edu/">Texas A&M University</a>. 
+    							I created this web-page as a sort of homepage for my various projects and for those who might look me up. 
+    							My goals for this site is to provide others general information about myself along with other more detailed information such as my resume, my email, and a closer look at who I am.  
+    							If you missed it, you will find my resume and info about myself under the <a href="resume.html">"Resume"</a> section of this site. If you want to send me an email there's a link 
+    							for it on the resume page as well. Thanks and Gig 'Em!
+    						</p>
+    						<h4>Even More About Me</h4>
+    						<p>
+    						    <!--Interests-->
+    							&emsp;As I mentioned earlier, I am a recent graduate of Texas A&Ms Master of Computer Science program</a>. 
+    							Although a little strange, I first got started into the subject back when I was 8 years old playing a web-based game called neopets. 
+    							In this game everyone had their own homepage which you could customize using HTML which is where I was first introduced into any sort of programming.
+    							Although at the time I didn't learn much, it still started my interest into the field.
+    							From this initial interest, years later I would take high-school computer science classes, go to programming summer camp, graduate from Texas A&M with my bachelor of science in computer science, and finally graduate from Texas A&M with my Master of Computer Science degree.
+    						</p>
+    					</div>
+    					
+    				</td>
+    			</tr>
+    		</table>
+        </div>
+        <script>
+            document.addEventListener('scroll', event => {
+                if(window.scrollY != 0) {
+                    document.querySelector('.header').style.borderBottom = "0.8px solid #c5c5c5";
+                } else {
+                    document.querySelector('.header').style.borderBottom = null;
+                }
+            });
+        </script>
+    </body>
+</html>

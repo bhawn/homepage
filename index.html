@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ben Hawn</title>
+        <style src="style.css"></style>
+        <link rel="stylesheet" href="katex.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header" style='position:fixed;background:#fff;'>
+            <table><tbody><tr>
+                <td width=100% style=padding:0>
+                    <table>
+                        <tbody>
+                            <tr align=center>
+                                <td  style=padding-bottom:0>
+                                    <a href="#default" class="logo">Benjamin Hawn</a>
+                                </td>
+                            </tr>
+                            <tr align=center>
+                                <td  style=padding-top:0>
+                                    Computer Science
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td class="nav-link">
+                    <a class="active">Home</a>
+                </td>
+                <td class="nav-link">
+                    <a href="resume.html">Resume</a>
+                </td>
+                <td class="nav-link">
+                    <a href="aboutme.html">About Me</a>
+                </td>
+            </tr></tbody></table>
+        </div>
+
+
+        <br><br><br><br>
+
+
+        <div class="body2">
+            
+            <br>
+            
+            <center>
+                <h2 style="margin-bottom:0; padding-top:5px; padding-bottom:0px;">Some of My Visually Viewable Work</h2>
+                <h6 style=padding-top:0px;><table><tbody><tr><td>Hover to view</td> <td>Click to visit available projects</td> <td>Filter to learn more</td></tr></tbody></table></h6>
+                <br>
+                <p id="ProjDescription" style=text-align:left;></p>
+                <table id=myBtnContainer><tbody><tr>
+                    <td class="filter-section">
+                        <a onclick="filterSelection('all')" class=active>Show all</a>
+                    </td>
+                    <td class="filter-section">
+                        <a onclick="filterSelection('606')">Vaccine Game</a>
+                    </td>
+                    <td class="filter-section">
+                        <a onclick="filterSelection('646')">Image Processing</a>
+                    </td>
+                     <td class="filter-section">
+                        <a onclick="filterSelection('647')">Image Synthesis</a>
+                    </td>
+                    <td class="filter-section">
+                        <a onclick="filterSelection('c608')">Class Tracker</a>
+                    </td>
+                    <td class="filter-section">
+                        <a onclick="filterSelection('c678')">AWS CloudMediaService</a>
+                    </td>
+                </tr></tbody></table>
+            </center>
+            <center>
+                <div class="project">
+                    <div class="row">
+                        <div class="column">
+                            <a class='gif-group 606' href="https://bhawn.github.io/CSCE_606_Project">
+                                <img src="assets/606/chain.gif" class="gif-img">
+                                <img src="assets/606/chain.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 606' href="https://bhawn.github.io/CSCE_606_Project">
+                                <img src="assets/606/loading.gif" class="gif-img">
+                                <img src="assets/606/loading.jpg" class="static-img">
+                            </a>
+                             <a class='gif-group 647' href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/AreaLight.gif" class="gif-img">
+                                <img src="assets/647/AreaLight.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 647' href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/env_illum.gif" class="gif-img">
+                                <img src="assets/647/env_illum.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 647' href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/chest.gif" class="gif-img">
+                                <img src="assets/647/chest.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 646' href="https://bhawn.github.io/CSCE_646">
+                                <img src="assets/646/overOpMask.gif" class="gif-img">
+                                <img src="assets/646/overOpMask.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 646' href="https://bhawn.github.io/CSCE_646">
+                                <img src="assets/646/dither_dog.gif" class="gif-img">
+                                <img src="assets/646/dither_dog.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c608' href="javascript:void(0);">
+                                <img src="assets/608/bookSlide.gif" class="gif-img">
+                                <img src="assets/608/bookSlide.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c608' href="javascript:void(0);">
+                                <img src="assets/608/notes.gif" class="gif-img">
+                                <img src="assets/608/notes.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c678' href="javascript:void(0);">
+                                <img src="assets/678/Comic.gif" class="gif-img">
+                                <img src="assets/678/Comic.jpg" class="static-img">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a class='gif-group 606' href="https://bhawn.github.io/CSCE_606_Project">
+                                <img src="assets/606/horde.gif" class="gif-img">
+                                <img src="assets/606/horde.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 606' href="https://bhawn.github.io/CSCE_606_Project">
+                                <img src="assets/606/gameOver.gif" class="gif-img">
+                                <img src="assets/606/gameOver.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 647' href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/cam_paint.gif" class="gif-img">
+                                <img src="assets/647/cam_paint.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 647' href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/shapes.gif" class="gif-img">
+                                <img src="assets/647/shapes.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 646' href="https://bhawn.github.io/CSCE_646">
+                                <img src="assets/646/dither_cool.gif" class="gif-img">
+                                <img src="assets/646/dither_cool.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 646' href="https://bhawn.github.io/CSCE_646">
+                                <img src="assets/646/spec-dyn.gif" class="gif-img">
+                                <img src="assets/646/spec-dyn.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c608' href="javascript:void(0);">
+                                <img src="assets/608/comments.gif" class="gif-img">
+                                <img src="assets/608/comments.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c608' href="javascript:void(0);">
+                                <img src="assets/608/sidebar.gif" class="gif-img">
+                                <img src="assets/608/sidebar.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c678' href="javascript:void(0);">
+                                <img src="assets/678/Book.gif" class="gif-img">
+                                <img src="assets/678/Book.jpg" class="static-img">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <a class='gif-group 606' href="https://bhawn.github.io/CSCE_606_Project">
+                                <img src="assets/606/redEnemy.gif" class="gif-img">
+                                <img src="assets/606/redEnemy.jpg" class="static-img">
+                            </a>
+                            <a class="gif-group 606" href="https://bhawn.github.io/CSCE_606_Project">
+                                <img src="assets/606/win.gif" class="gif-img">
+                                <img src="assets/606/win.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 647' href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/MeshFresnel.gif" class="gif-img">
+                                <img src="assets/647/MeshFresnel.jpg" class="static-img">
+                            </a>
+                            <a class="gif-group 647 "  href="https://bhawn.github.io/CSCE_647">
+                                <img src="assets/647/refract_transparent.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 646' href="https://bhawn.github.io/CSCE_646">
+                                <img src="assets/646/sbd30.gif" class="gif-img">
+                                <img src="assets/646/sbd30.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group 646' href="https://bhawn.github.io/CSCE_646">
+                                <img src="assets/646/carve.gif" class="gif-img">
+                                <img src="assets/646/carve.png" class="static-img">
+                             </a>
+                            <a class='gif-group c608' href="javascript:void(0);">
+                                <img src="assets/608/login.gif" class="gif-img">
+                                <img src="assets/608/login.jpg" class="static-img">
+                            </a>
+                            <a class='gif-group c678' href="javascript:void(0);">
+                                <img src="assets/678/diagram.png" class="static-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
